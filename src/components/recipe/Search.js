@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 export default function Search({handleSearch}){
   return(
-     <input className="search" placeholder="search by Name ........."  onChange={event => handleSearch(event)} />
+     <input className="search" placeholder="search by recipe name ........."  onChange={event => handleSearch(event)} />
   );
 }
 
